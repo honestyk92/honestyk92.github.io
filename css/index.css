@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body{
+  background-color: #212121;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+}
+
+.clock-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.clock-top{
+
+}
+.clock-am-pm{
+  color: rgba(254,254,254,0.6);
+  font-size: 15pt;
+}
+
+.clock-h-m{
+  color: white;
+  font-size: 40pt;
+}
+
+.clock-s{
+  color: rgba(254,254,254,0.6);
+  font-size: 28pt;
+}
+
+.clock-bottom{
+  color: rgba(254,254,254,0.6);
+  font-size: 12pt;
+}
+.clock-day{
+
+}
